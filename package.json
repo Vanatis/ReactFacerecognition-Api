@@ -15,12 +15,12 @@
     "cors": "^2.8.4",
     "express": "^4.16.2",
     "jsonwebtoken": "^8.2.1",
-    "knex": "^0.14.2",
+    "knex": "^0.16.2",
     "pg": "^7.4.0",
     "redis": "^2.8.0"
   },
   "devDependencies": {
-    "nodemon": "^1.12.7"
+    "nodemon": "^1.18.9"
   },
   "description": ""
 }
