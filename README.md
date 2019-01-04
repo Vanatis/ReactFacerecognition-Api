@@ -1,12 +1,18 @@
-# SmartBrain-api - v3
-Final project for Udemy course - Advanced
+# ReactFacerecognition (Back-End)
 
-1. Clone this repo
-2. Run `npm install`
-3. Run `npm start`
-4. You must add your own API key in the `controllers/image.js` file to connect to Clarifai API.
-5. You will need a redis server and a postgreSQL server running on your machine for this to work.
+This project exists out of two parts: front-end and back-end.
+This is the back-end repository of this FaceRecognition project.
+You can find the front-end (API) repository [here](https://github.com/Vanatis/ReactFacerecognition).
+The focus for this project is learning [React](https://reactjs.org/).
 
-You can grab Clarifai API key [here](https://www.clarifai.com/)
+## What features does this application have?
+- Node Express
+- Redis database for token sessions
+- PostgreSQL database for user account data
+- Usage Clarifai API
 
-** Make sure you use postgreSQL instead of mySQL for this code base.
+## API
+[Clarifai](https://clarifai.com/) is the API used to perform the face recognition algorithm.
+
+## Demo
+- https://reactfacerecognition.herokuapp.com/
